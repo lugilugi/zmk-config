@@ -5,12 +5,12 @@
  */
 
 #include <dt-bindings/zmk/matrix_transform.h>
-#include <physical-layout.dtsi>
+#include <pica_layout.dtsi>
 
 / {
     chosen {
         zmk,kscan = &kscan0;
-        zmk,physical-layout = &physical_layout_0;
+        zmk,physical-layout = &pica_layout;
         /* /delete-property/ zephyr,console; */
         /* /delete-property/ zephyr,shell-uart; */
     };
